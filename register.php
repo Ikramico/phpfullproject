@@ -18,10 +18,12 @@
         $query = mysqli_query($mysqli,$insert );
 
         if($query){
+            header("Location: login.php");
+            exit();
             ?>
-            <div>
+            <!-- <div>
                 <p style="text-align: center; color:greenyellow">Successfully Registered</p>
-            </div>
+            </div> -->
 
             <?php
         }

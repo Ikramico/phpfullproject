@@ -8,10 +8,7 @@
 </head>
 
 <body>
-    <h2>Hi,
-        <?php
-        echo $_REQUEST['username'].' '. $_REQUEST['email']
-        ?>
+    <h2>Hi
     </h2>
     <?php
     require_once('./config.php');
